@@ -1,0 +1,26 @@
+# Core dependencies
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy>=1.24.0
+
+# Audio processing
+librosa>=0.10.0
+soundfile>=0.12.1
+
+# Machine Learning Models
+openai-whisper>=20231117
+pyannote.audio>=3.0.0
+
+# Utility
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+tqdm>=4.65.0  # For progress bars
+
+# Optional: CUDA support for GPU acceleration
+# Uncomment if using CUDA
+# nvidia-cuda-toolkit
+# nvidia-cublas-cu11
+
+# File handling and data processing
+pathlib>=1.0.1
+datetime>=5.0
